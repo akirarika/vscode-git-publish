@@ -8,7 +8,7 @@
 
 ## 使用
 
-1. [安装](https://github.com/akirarika/vscode-git-publish/releases/tag/v0.0.1)本 VS Code 插件 (暂未上架官方扩展商店)。
+1. [安装](https://github.com/akirarika/vscode-git-publish/releases/tag/v0.0.1) 本 VS Code 插件 (暂未上架官方扩展商店)。
 
 2. 在你的项目根目录创建一个 `.publ` 目录。
 
@@ -26,3 +26,5 @@ gh-pages.sh
 ## Todo
 
 - [ ] 可自定义默认 `commit` 文案，和限制 `commit` 的格式。
+
+- [ ] 兼容 Powershell (但这样，脚本就不能跨平台了呀)。
