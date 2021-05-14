@@ -63,9 +63,9 @@ export function activate(context: ExtensionContext) {
       terminal.sendText(
         [
           'echo "Starting.."',
-          'bash "' +
+          'if ! bash "' +
             branchScriptPathArray[branchArray.findIndex((b) => b === branch)] +
-            '"',
+            '" ; then echo "\nCommand failed, press Enter to abort."; read exit && exit 1; fi',
           'git checkout "' + lasthBranch + '"',
           "git add --all",
           'git commit -m "' + commit + '" || true',
