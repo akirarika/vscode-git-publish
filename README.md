@@ -1,3 +1,5 @@
+> 本项目已停止更新，欢迎使用我们功能齐全的新扩展：[project-maid](https://github.com/akirarika/project-maid)
+
 # vscode-git-publish
 
 一个用于简化 Git 发布版本的 VS Code 插件，通常用于和 [Github Actions](https://docs.github.com/cn/actions/learn-github-actions)、[Coding](https://coding.net/) 等基于 Git 的 CI/CD 方案配合。
